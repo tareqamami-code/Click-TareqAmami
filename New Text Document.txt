@@ -1,0 +1,42 @@
+<html>
+<html lang="en">   
+<head>    
+    <meta charset="UTF-8">
+    <title> Click Deutsch </title>
+    <link rel="stylesheet" href="style6.css">
+    
+    
+</head>
+<body>
+    
+<div class="wrapper">
+    <div class="contact-form">
+        <div class="input-fields">
+             <input type="text" class="input" placeholder="Name"> 
+             <input type="text" class="input" placeholder="Email Address"> 
+             <input type="text" class="input" placeholder="Phone"> 
+             <input type="text" class="input" placeholder="Subject"> 
+             </div>
+    
+        <div class="msg">
+             <textarea placeholder="Massage"></textarea>
+             <div class="btn"> Send </div>
+        
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    </div>
+    </div>
+
+
+</body>
+
+</html>

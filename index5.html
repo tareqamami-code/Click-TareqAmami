@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title> Click عربي</title>   
+    <link rel="stylesheet" href="style2.css">
+    
+    
+    
+    
+
+    
+</head>
+<body>
+    <div id="img-box" class="small">
+        <div class="shadow1"></div>
+        <div class="shadow2"></div>
+        <img src="D5.gif" id="smallimg">
+    
+    </div>
+    <div class="imageList">
+         <ul>
+             <li onclick = "onWebDesing()"> Web Design</li>
+             <li onclick = "onAboutUs()">About Us</li>
+             <li onclick = "Home()"><a href="index.html">Home Page</a></li>
+        
+        </ul>
+  
+    </div>
+    <div class="btn-box" onclick="imageSize()">
+        <span id="btnIcon">&#9776;</span>
+    
+    </div>
+    
+    <script>
+    
+         var smallImg = document.getElementById("smallimg");
+         var imgBox = document.getElementById("img-box");
+         var menuIcon = document.getElementById("btnIcon");
+        
+         function onWebDesing(){
+             smallImg .src = "Arabic 1.gif";
+   
+         }
+          function onAboutUs(){
+             smallImg .src = "Arabic 55.gif";
+   
+         }
+        
+        function onHome(){
+             smallImg .src = "";
+   
+         }
+          
+        
+          function imageSize(){
+              if(imgBox.className == "small")
+              {
+                  imgBox.className = "full";
+                  menuIcon.innerHTML = "&#9776";
+              }
+              else{
+                  imgBox.className = "small";
+                  menuIcon.innerHTML = "&#10006";
+              }
+              
+              
+          }
+    
+    </script>
+
+    
+    
+    
+    </body>
+
+
+</html>
